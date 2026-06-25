@@ -1,0 +1,248 @@
+Charm++> No provisioning arguments specified. Running with a single PE.
+         Use +auto-provision to fully subscribe resources or +p1 to silence this message.
+Charm++: standalone mode (not using charmrun)
+Charm++> Running in Multicore mode: 1 threads (PEs)
+Charm++> Using recursive bisection (scheme 3) for topology aware partitions
+Converse/Charm++ Commit ID: v6.10.2-0-g7bf00fa-namd-charm-6.10.2-build-2020-Aug-05-556
+Warning> Randomization of virtual memory (ASLR) is turned on in the kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try running with '+isomalloc_sync'.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 hosts (1 sockets x 8 cores x 2 PUs = 16-way SMP)
+Charm++> cpu topology info is gathered in 0.000 seconds.
+Info: NAMD 2.14 for Linux-x86_64-multicore
+Info: 
+Info: Please visit http://www.ks.uiuc.edu/Research/namd/
+Info: for updates, documentation, and support information.
+Info: 
+Info: Please cite Phillips et al., J. Chem. Phys. 153:044130 (2020) doi:10.1063/5.0014475
+Info: in all publications reporting results obtained with NAMD.
+Info: 
+Info: Based on Charm++/Converse 61002 for multicore-linux-x86_64-iccstatic
+Info: Built Mon Aug 24 10:08:36 CDT 2020 by jim on belfast.ks.uiuc.edu
+Info: 1 NAMD  2.14  Linux-x86_64-multicore  1    macaco-Victus-by-HP-Laptop-16-e0xxx  macaco
+Info: Running on 1 processors, 1 nodes, 1 physical nodes.
+Info: CPU topology information available.
+Info: Charm++/Converse parallel runtime startup completed at 0.00157043 s
+CkLoopLib is used in SMP with simple dynamic scheduling (converse-level notification)
+Info: 31.7266 MB of memory in use based on /proc/self/stat
+Info: Configuration file is eq2.namd
+Info: Working in the current directory /home/macaco/Documents/UAB/4rt any/simulacions/treball final/arxius/2-bionano-tutorial-files-per-entregar-al-jodri/2_calibrate
+TCL: Suspending until startup complete.
+Info: EXTENDED SYSTEM FILE   eq1.xsc
+Info: SIMULATION PARAMETERS:
+Info: TIMESTEP               1
+Info: NUMBER OF STEPS        500
+Info: STEPS PER CYCLE        20
+Info: PERIODIC CELL BASIS 1  34.1775 19.7324 0
+Info: PERIODIC CELL BASIS 2  0 39.4648 0
+Info: PERIODIC CELL BASIS 3  0 0 17.412
+Info: PERIODIC CELL CENTER   0 0 0
+Info: WRAPPING ALL CLUSTERS AROUND PERIODIC BOUNDARIES ON OUTPUT.
+Info: WRAPPING TO IMAGE NEAREST TO PERIODIC CELL CENTER.
+Info: LOAD BALANCER  Centralized
+Info: LOAD BALANCING STRATEGY  New Load Balancers -- DEFAULT
+Info: LDB PERIOD             4000 steps
+Info: FIRST LDB TIMESTEP     100
+Info: LAST LDB TIMESTEP     -1
+Info: LDB BACKGROUND SCALING 1
+Info: HOM BACKGROUND SCALING 1
+Info: PME BACKGROUND SCALING 1
+Info: MIN ATOMS PER PATCH    40
+Info: VELOCITY FILE          eq1.vel
+Info: CENTER OF MASS MOVING INITIALLY? NO
+Info: DIELECTRIC             1
+Info: EXCLUDE                SCALED ONE-FOUR
+Info: 1-4 ELECTROSTATICS SCALED BY 1
+Info: MODIFIED 1-4 VDW PARAMETERS WILL BE USED
+Info: DCD FILENAME           eq2.dcd
+Info: DCD FREQUENCY          100
+Info: DCD FIRST STEP         100
+Info: DCD FILE WILL CONTAIN UNIT CELL DATA
+Info: XST FILENAME           eq2.xst
+Info: XST FREQUENCY          100
+Info: NO VELOCITY DCD OUTPUT
+Info: NO FORCE DCD OUTPUT
+Info: OUTPUT FILENAME        eq2
+Info: BINARY OUTPUT FILES WILL BE USED
+Info: RESTART FILENAME       eq2.restart
+Info: RESTART FREQUENCY      100
+Info: BINARY RESTART FILES WILL BE USED
+Info: SWITCHING ACTIVE
+Info: SWITCHING ON           10
+Info: SWITCHING OFF          12
+Info: PAIRLIST DISTANCE      14
+Info: PAIRLIST SHRINK RATE   0.01
+Info: PAIRLIST GROW RATE     0.01
+Info: PAIRLIST TRIGGER       0.3
+Info: PAIRLISTS PER CYCLE    2
+Info: PAIRLISTS ENABLED
+Info: MARGIN                 3
+Info: HYDROGEN GROUP CUTOFF  2.5
+Info: PATCH DIMENSION        19.5
+Info: ENERGY OUTPUT STEPS    100
+Info: CROSSTERM ENERGY INCLUDED IN DIHEDRAL
+Info: TIMING OUTPUT STEPS    100
+Info: HARMONIC CONSTRAINTS ACTIVE
+Info: HARMONIC CONS EXP      2
+Info: LANGEVIN DYNAMICS ACTIVE
+Info: LANGEVIN TEMPERATURE   295
+Info: LANGEVIN USING BBK INTEGRATOR
+Info: LANGEVIN DAMPING COEFFICIENT IS 5 INVERSE PS
+Info: LANGEVIN DYNAMICS NOT APPLIED TO HYDROGENS
+Info: PARTICLE MESH EWALD (PME) ACTIVE
+Info: PME TOLERANCE               1e-06
+Info: PME EWALD COEFFICIENT       0.257952
+Info: PME INTERPOLATION ORDER     4
+Info: PME GRID DIMENSIONS         48 48 128
+Info: PME MAXIMUM GRID SPACING    1.5
+Info: Attempting to read FFTW data from FFTW_NAMD_2.14_Linux-x86_64-multicore.txt
+Info: Optimizing 6 FFT steps.  1... 2... 3... 4... 5... 6...   Done.
+Info: Writing FFTW data to FFTW_NAMD_2.14_Linux-x86_64-multicore.txt
+Info: FULL ELECTROSTATIC EVALUATION FREQUENCY      4
+Info: USING VERLET I (r-RESPA) MTS SCHEME.
+Info: C1 SPLITTING OF LONG RANGE ELECTROSTATICS
+Info: PLACING ATOMS IN PATCHES BY HYDROGEN GROUPS
+Info: NONBONDED FORCES EVALUATED EVERY 2 STEPS
+Info: RANDOM NUMBER SEED     1782386476
+Info: USE HYDROGEN BONDS?    NO
+Info: COORDINATE PDB         ../1_build/membrane_hex.pdb
+Info: STRUCTURE FILE         ../1_build/membrane_hex.psf
+Info: PARAMETER file: CHARMM format! 
+Info: PARAMETERS             par_silicon_ions_NEW0.1.inp
+Info: USING ARITHMETIC MEAN TO COMBINE L-J SIGMA PARAMETERS
+Info: BINARY COORDINATES     eq1.coor
+Info: SUMMARY OF PARAMETERS:
+Info: 11 BONDS
+Info: 36 ANGLES
+Info: 0 DIHEDRAL
+Info: 0 IMPROPER
+Info: 0 CROSSTERM
+Info: 15 VDW
+Info: 0 VDW_PAIRS
+Info: 0 NBTHOLE_PAIRS
+Info: TIME FOR READING PSF FILE: 0.00697793
+Info: Reading pdb file ../1_build/membrane_hex.pdb
+Info: TIME FOR READING PDB FILE: 0.00188616
+Info: 
+Info: ****************************
+Info: STRUCTURE SUMMARY:
+Info: 2268 ATOMS
+Info: 3888 BONDS
+Info: 9720 ANGLES
+Info: 0 DIHEDRALS
+Info: 0 IMPROPERS
+Info: 0 CROSSTERMS
+Info: 0 EXCLUSIONS
+Info: 2268 CONSTRAINTS
+Info: 6804 DEGREES OF FREEDOM
+Info: 2268 HYDROGEN GROUPS
+Info: 1 ATOMS IN LARGEST HYDROGEN GROUP
+Info: 2268 MIGRATION GROUPS
+Info: 1 ATOMS IN LARGEST MIGRATION GROUP
+Info: TOTAL MASS = 45452.2 amu
+Info: TOTAL CHARGE = 3.86238e-05 e
+Info: MASS DENSITY = 3.21377 g/cm^3
+Info: ATOM DENSITY = 0.0965705 atoms/A^3
+Info: *****************************
+Info: Reading from binary file eq1.coor
+Info: 
+Info: Entering startup at 0.0163661 s, 56.6133 MB of memory in use
+Info: Startup phase 0 took 5.4584e-05 s, 56.6133 MB of memory in use
+Info: ADDED 34020 IMPLICIT EXCLUSIONS
+Info: Startup phase 1 took 0.00328914 s, 57 MB of memory in use
+Info: NONBONDED TABLE R-SQUARED SPACING: 0.0625
+Info: NONBONDED TABLE SIZE: 769 POINTS
+Info: ABSOLUTE IMPRECISION IN FAST TABLE FORCE: 2.64698e-23 AT 11.9138
+Info: RELATIVE IMPRECISION IN FAST TABLE FORCE: 1.40436e-16 AT 11.9138
+Info: INCONSISTENCY IN FAST TABLE ENERGY VS FORCE: 0.000325096 AT 11.9556
+Info: ABSOLUTE IMPRECISION IN SCOR TABLE FORCE: 4.10282e-22 AT 11.9138
+Info: RELATIVE IMPRECISION IN SCOR TABLE FORCE: 3.56912e-15 AT 11.9138
+Info: INCONSISTENCY IN SCOR TABLE ENERGY VS FORCE: 0.000324844 AT 11.9556
+Info: ABSOLUTE IMPRECISION IN VDWA TABLE ENERGY: 9.86076e-32 AT 11.8295
+Info: RELATIVE IMPRECISION IN VDWA TABLE ENERGY: 6.75473e-14 AT 11.9138
+Info: ABSOLUTE IMPRECISION IN VDWA TABLE FORCE: 4.62223e-32 AT 11.9138
+Info: RELATIVE IMPRECISION IN VDWA TABLE FORCE: 2.12237e-15 AT 11.9138
+Info: INCONSISTENCY IN VDWA TABLE ENERGY VS FORCE: 0.0040507 AT 0.251946
+Info: ABSOLUTE IMPRECISION IN VDWB TABLE ENERGY: 4.1359e-25 AT 11.8295
+Info: RELATIVE IMPRECISION IN VDWB TABLE ENERGY: 7.56853e-15 AT 11.9138
+Info: ABSOLUTE IMPRECISION IN VDWB TABLE FORCE: 3.87741e-26 AT 11.9138
+Info: RELATIVE IMPRECISION IN VDWB TABLE FORCE: 5.97409e-16 AT 11.9138
+Info: INCONSISTENCY IN VDWB TABLE ENERGY VS FORCE: 0.00150189 AT 0.251946
+Info: Startup phase 2 took 0.000333327 s, 57 MB of memory in use
+Info: Startup phase 3 took 3.3805e-05 s, 57 MB of memory in use
+Info: Startup phase 4 took 4.185e-05 s, 57 MB of memory in use
+Info: Startup phase 5 took 3.159e-05 s, 57 MB of memory in use
+Info: PATCH GRID IS 1 (PERIODIC) BY 1 (PERIODIC) BY 1 (PERIODIC)
+Info: PATCH GRID IS 1-AWAY BY 1-AWAY BY 1-AWAY
+Info: Reading from binary file eq1.vel
+Info: REMOVING COM VELOCITY 0.0141108 -0.00754477 0.157425
+Info: LARGEST PATCH (0) HAS 2268 ATOMS
+Info: TORUS A SIZE 1 USING 0
+Info: TORUS B SIZE 1 USING 0
+Info: TORUS C SIZE 1 USING 0
+Info: TORUS MINIMAL MESH SIZE IS 1 BY 1 BY 1
+Info: Placed 100% of base nodes on same physical node as patch
+Info: Startup phase 6 took 0.000552285 s, 57.6406 MB of memory in use
+Info: PME using 1 and 1 processors for FFT and reciprocal sum.
+Info: PME GRID LOCATIONS: 0
+Info: PME TRANS LOCATIONS: 0
+Info: PME USING 1 GRID NODES AND 1 TRANS NODES
+Info: Optimizing 4 FFT steps.  1... 2... 3... 4...   Done.
+Info: Startup phase 7 took 0.000708945 s, 58.7812 MB of memory in use
+Info: Startup phase 8 took 3.5588e-05 s, 58.7812 MB of memory in use
+Info: Startup phase 9 took 3.1791e-05 s, 58.7812 MB of memory in use
+Info: Startup phase 10 took 3.0087e-05 s, 58.7812 MB of memory in use
+Info: Startup phase 11 took 3.114e-05 s, 58.7812 MB of memory in use
+LDB: Central LB being created...
+Info: Startup phase 12 took 3.8463e-05 s, 58.7812 MB of memory in use
+Info: CREATING 26 COMPUTE OBJECTS
+Info: Startup phase 13 took 0.000110972 s, 58.7812 MB of memory in use
+Info: Startup phase 14 took 4.0698e-05 s, 58.7812 MB of memory in use
+Info: Startup phase 15 took 3.3955e-05 s, 58.7812 MB of memory in use
+Info: Finished startup at 0.0217643 s, 58.7812 MB of memory in use
+
+ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG            PRESSURE      GPRESSURE         VOLUME       PRESSAVG      GPRESSAVG
+
+ENERGY:       0         5.5497         0.0978         0.0000         0.0000        -306971.4534     -2019.2675        35.9141         0.0000      2009.3414        -306939.8179       297.2212   -308949.1593   -306938.1984       297.2212        -123232.9722   -123232.9722     23485.4351   -123232.9722   -123232.9722
+
+OPENING EXTENDED SYSTEM TRAJECTORY FILE
+LDB: ============= START OF LOAD BALANCING ============== 0.215592
+LDB: ============== END OF LOAD BALANCING =============== 0.215652
+LDB: =============== DONE WITH MIGRATION ================ 0.215681
+LDB: ============= START OF LOAD BALANCING ============== 0.944067
+LDB: ============== END OF LOAD BALANCING =============== 0.944113
+LDB: =============== DONE WITH MIGRATION ================ 0.944194
+Info: Initial time: 1 CPUs 0.0091642 s/step 0.106067 days/ns 67.8359 MB memory
+TIMING: 100  CPU: 0.959862, 0.0091689/step  Wall: 0.96008, 0.0091673/step, 0.00101859 hours remaining, 67.835938 MB of memory in use.
+ENERGY:     100        41.3483         0.7525         0.0000         0.0000        -308168.3561     -1744.5829       438.6779         0.0000      2149.9405        -307282.2199       318.0186   -309432.1604   -307282.0669       335.9378        -118353.3925   -118353.3925     23485.4351   -123149.6077   -123149.6077
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 100
+OPENING COORDINATE DCD FILE
+WRITING COORDINATES TO DCD FILE eq2.dcd AT STEP 100
+WRITING COORDINATES TO RESTART FILE AT STEP 100
+FINISHED WRITING RESTART COORDINATES
+The last position output (seq=100) takes 0.000 seconds, 67.836 MB of memory in use
+WRITING VELOCITIES TO RESTART FILE AT STEP 100
+FINISHED WRITING RESTART VELOCITIES
+The last velocity output (seq=100) takes 0.000 seconds, 67.836 MB of memory in use
+LDB: ============= START OF LOAD BALANCING ============== 1.13324
+LDB: ============== END OF LOAD BALANCING =============== 1.13328
+LDB: =============== DONE WITH MIGRATION ================ 1.13332
+LDB: ============= START OF LOAD BALANCING ============== 1.86874
+LDB: ============== END OF LOAD BALANCING =============== 1.86879
+LDB: =============== DONE WITH MIGRATION ================ 1.86887
+Info: Initial time: 1 CPUs 0.00924107 s/step 0.106957 days/ns 67.8359 MB memory
+TIMING: 200  CPU: 1.88368, 0.00923822/step  Wall: 1.88452, 0.00924437/step, 0.000770364 hours remaining, 67.835938 MB of memory in use.
+ENERGY:     200        44.9014         0.7908         0.0000         0.0000        -307971.7210     -2200.0242       382.0647         0.0000      2277.1726        -307466.8158       336.8387   -309743.9883   -307466.1901       328.3414        -124197.2947   -124197.2947     23485.4351   -121172.8563   -121172.8563
+
+WRITING EXTENDED SYSTEM TO RESTART FILE AT STEP 200
+WRITING COORDINATES TO DCD FILE eq2.dcd AT STEP 200
+WRITING COORDINATES TO RESTART FILE AT STEP 200
+FINISHED WRITING RESTART COORDINATES
+The last position output (seq=200) takes 0.000 seconds, 67.836 MB of memory in use
+WRITING VELOCITIES TO RESTART FILE AT STEP 200
+FINISHED WRITING RESTART VELOCITIES
+The last velocity output (seq=200) takes 0.000 seconds, 67.836 MB of memory in use
+FATAL ERROR: High global exclusion count!  (34021 vs 34020)  System unstable or pairlistdist or cutoff too close to periodic cell size.
+
+FATAL ERROR: See http://www.ks.uiuc.edu/Research/namd/bugreport.html
+[Partition 0][Node 0] End of program
